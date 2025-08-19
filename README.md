@@ -117,3 +117,15 @@ This analysis aims to:
 - Examine **cross-HHS patient flows**
 - Model **age-location-source** correlations to uncover deeper risk patterns
 
+---
+
+## 📄 Reports & Notebooks
+
+- 📘 [Download Full Report (PDF)](./qld-covid19-data-analysis-report-2025.pdf)
+- 💻 [View Analysis in Jupyter Notebook](./qld-covid19-2025.ipynb)
+
+---
+
+## License
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
