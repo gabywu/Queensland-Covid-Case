@@ -1,17 +1,17 @@
 # Local Dynamics of COVID-19 Transmission in Queensland
 
-**Exploring demographic, spatial, and seasonal COVID-19 trends across Queensland (July 2024 – July 2025)**
+**Exploring demographic, spatial, and seasonal COVID-19 trends across Queensland (Both start of the Pandemic, and from July 2024 to July 2025)**
 
 ---
 
 ## Executive Summary
 
-This project investigates COVID-19 case trends in Queensland using open government data from July 2024 to July 2025. Key insights include:
+This project investigates COVID-19 case trends in Queensland using open government data. Key insights include:
 
 - A **demographic shift in vulnerability**, with higher incidence in **young children (0–4)** and **older adults (75–79)**.
 - **Seasonal peaks** in cases during winter and early summer, aligned with typical flu seasons.
 - **Metro North and Metro South** emerged as consistent hotspots.
-- Data quality limitations — particularly **98.1% of cases marked “Under Investigation”** in source attribution — significantly affect transmission insights.
+- Data quality limitations particularly **98.1% of cases marked “Under Investigation”** in source attribution significantly affect transmission insights.
 
 Recommendations include enhancing data completeness, improving geographic categorisation, and focusing public health responses on seasonal and demographic risks.
 
@@ -24,7 +24,7 @@ This analysis aims to:
 - Identify **shifts in age-group vulnerability** over time  
 - Explore **temporal and demographic** COVID-19 patterns  
 - Assess **geographic distribution** across Hospital and Health Services (HHS) and Local Government Areas (LGAs)  
-- Investigate **source attribution** and data limitations
+- Investigate **source attribution**
 
 ---
 
@@ -33,8 +33,6 @@ This analysis aims to:
 - **Python** (Jupyter Notebook)
   - `pandas`, `numpy`, `matplotlib`, `seaborn`
 - AI-assisted coding tools (for validation and efficiency)
-- Data source: [Queensland Government Open Data Portal: Age Groups](https://www.data.qld.gov.au/dataset/queensland-covid-19-case-line-list-age-groups) *(accessed 10 August 2025)*
-- Data source: [Queensland Government Open Data Portal: Location & Sourse of Infection](https://www.data.qld.gov.au/dataset/queensland-covid-19-case-line-list-location-source-of-infection) *(accessed 10 August 2025)*
 
 ---
 
@@ -44,9 +42,11 @@ This analysis aims to:
 - **License**: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 - **Files Used**:
   1. `Queensland COVID-19 Case Line List – Age Groups`  
-     ➤ Focused on demographics, especially `AGE_GROUP_5Y`  
+     - Focused on demographics, especially `AGE_GROUP_5Y`
+     - Data source: [Queensland Government Open Data Portal: Age Groups](https://www.data.qld.gov.au/dataset/queensland-covid-19-case-line-list-age-groups) *(accessed 10 August 2025)*
   2. `Queensland COVID-19 Case Line List – Location & Source of Infection`  
-     ➤ Focused on `HHS`, `LGA_NAME`, and `SOURCE_INFECTION`  
+     - Focused on `HHS`, `LGA_NAME`, and `SOURCE_INFECTION`
+     - Data source: [Queensland Government Open Data Portal: Location & Sourse of Infection](https://www.data.qld.gov.au/dataset/queensland-covid-19-case-line-list-location-source-of-infection) *(accessed 10 August 2025)*
 - **Total Records**: 1,854,305 (in each table)
 
 > **Limitation:** 98.1% of source attribution marked "Under Investigation", impacting analysis of transmission pathways.
@@ -70,7 +70,7 @@ This analysis aims to:
 
 - **Highest overall cases**: 25–29 age group (~164,000)
 - **Most affected in 2024–25**: 0–4 and 75–79 age groups  
-  ➤ Suggests shift in vulnerability post-vaccination era
+  - Suggests shift in vulnerability post-vaccination era
 
 ### Temporal Trends
 
