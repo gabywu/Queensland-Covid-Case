@@ -1,6 +1,6 @@
 # Local Dynamics of COVID-19 Transmission in Queensland
 
-**Exploring demographic, spatial, and seasonal COVID-19 trends across Queensland (Both start of the Pandemic, and from July 2024 to July 2025)**
+**Exploring demographic, spatial, and seasonal COVID-19 trends across Queensland (Both start of the Pandemic, and from July 2024 to July 2025)**<br>
 **Purpose: Portfolio Submission for Entry-Level Data Analyst Role**
 
 ---
